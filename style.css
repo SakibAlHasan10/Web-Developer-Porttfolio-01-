@@ -1,63 +1,142 @@
 /* common share style */
-body{
+body {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
-.text-primary{
+
+.text-primary {
     color: #FD6E0A;
 }
-.primary-button{
+
+.primary-button {
     background-color: #FD6E0A;
     border-radius: 5px;
     border: 0px;
-    
+    cursor: pointer;
     color: #fff;
     font-size: 20px;
     font-weight: 700;
     padding: 18px 36px 19px 35px;
 }
+
+.primary-button1 {
+    background-color: #Fff;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px 36px 19px 35px;
+    cursor: pointer;
+}
+
 /* This is a nav section */
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 200px;
 }
-.web-title{
+
+.web-title {
     color: #181818;
     font-size: 45px;
     font-weight: 800;
 }
-nav > ul{
+
+nav>ul {
     display: flex;
     align-items: baseline;
-    
+
 }
-nav li{
+
+nav li {
     list-style: none;
 
 
 }
-nav a{
+
+nav a {
     text-decoration: none;
     margin-right: 50px;
-    color:#474747;
+    color: #474747;
     font-family: Open Sans;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
-    /* header related style */
-.header{
+
+/* header related style */
+.header {
     background: #FFF8F3;
+    background-image: url(./images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
-.banner{
-    padding: 30px 30px 50px 150px;
+
+.banner {
+    padding: 30px 100px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
-.banner .header-img{
+
+.banner .header-img {
     width: 500px;
 }
 
+.banner-greeting {
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 0px;
+
+}
+
+.banner-title {
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    max-width: 500px;
+}
+
+.banner-description {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/* main section  */
+.about-section {
+    width: 1140px;
+    height: 550px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 230px;
+    padding: 130px;
+    flex-shrink: 0;
+}
+
+.about-title {
+    color: #181818;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.about-description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+   
+    
+}
