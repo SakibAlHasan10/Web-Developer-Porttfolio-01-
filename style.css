@@ -21,6 +21,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 .web-title{
     color: #181818;
@@ -46,5 +47,17 @@ nav a{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+    /* header related style */
+.header{
+    background: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 50px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .header-img{
+    width: 500px;
 }
 
