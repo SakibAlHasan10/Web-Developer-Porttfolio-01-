@@ -68,13 +68,15 @@ nav a {
 }
 
 /* header related style */
-.developer{
+.developer {
     width: 4%;
     margin: 40px 20px 50px 50px;
 }
-.developer2{
+
+.developer2 {
     width: 94%;
 }
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -341,8 +343,8 @@ main {
 .text-message {
     height: 120px;
     width: 100%;
-    text-align:left;
-    padding:  25px;
+    text-align: left;
+    padding: 25px;
     color: #757575;
     font-size: 16px;
     font-weight: 400;
@@ -383,4 +385,158 @@ main {
     width: 24px;
     height: 24px;
     margin: 12px;
+}
+
+/* Small device media quary  */
+.hide {
+    display: none;
+}
+
+@media screen and (max-width: 576px) {
+
+    .header,
+    .banner {
+        display: block;
+    }
+
+    .developer,
+    .web-title {
+        display: none;
+    }
+
+    .banner {
+        padding: 0px 50px;
+        margin: 0px auto;
+    }
+
+    .banner-text {
+        margin: 0px auto;
+    }
+
+    nav {
+        width: 100%;
+        padding: 0px 20px;
+        margin: 0px auto;
+    }
+
+    nav>ul {
+        margin: 0px auto;
+    }
+
+    nav li {
+        margin-top: 30px;
+        padding: 0px;
+
+    }
+
+    .primary-button {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .primary-button1 {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .banner-greeting {
+        font-size: 25px;
+    }
+
+    .banner-title {
+        font-size: 30px;
+    }
+
+    .header-img img {
+        width: 80%;
+        margin: 0px auto;
+    }
+
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    .developer {
+        display: none;
+    }
+
+    .banner {
+        width: 100%;
+        display: block;
+        padding: 0px 0px 0px 50px;
+    }
+
+    .banner-text {
+        width: 70%;
+    }
+
+    .banner-greeting {
+        font-size: 35px;
+    }
+
+    .banner-title {
+        font-size: 55px;
+    }
+
+    .header-img {
+        width: 70%;
+
+    }
+
+    .header-img img {
+        width: 100%;
+        text-align: end;
+    }
+
+    .primary-button {
+        font-size: 16px;
+        padding: 10px;
+        width: 140px;
+    }
+
+    .primary-button1 {
+        font-size: 16px;
+        padding: 10px;
+        width: 140px;
+        margin: 10px 0px;
+    }
+
+    nav {
+        margin: 0px 50px 0px 50px;
+    }
+
+    nav>ul {
+        padding: 0px 10px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .developer {
+        width: 2%;
+    }
+
+    .develope img {
+        width: 2%;
+    }
+
+    .primary-button1 {
+        width: 205px;
+        margin-top: 10px;
+    }
+
+    .banner-title {
+        font-size: 56px;
+    }
+
+    .developer {
+        display: none;
+    }
+
+    .banner-greeting {
+        font-size: 35px;
+    }
+
+    .primary-button {
+        width: 205px;
+    }
+
 }
